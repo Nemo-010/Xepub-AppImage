@@ -1,21 +1,36 @@
 <div align="center">
 
-# TEMPLATE-AppImage 🐧
+# Xepub-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/TEMPLATE-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![CI Build Status](https://github.com/pkgforge-dev/TEMPLATE-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/TEMPLATE-AppImage)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Xepub-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Xepub-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/Xepub-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Xepub-AppImage/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/Xepub-AppImage)](https://github.com/pkgforge-dev/Xepub-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://raw.githubusercontent.com/xapp-project/xepub/master/data/xepub.svg" width="128" alt="Xepub Logo" />
 </p>
 
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/Anylinux-AppImages) |
+| [Click here](https://github.com/pkgforge-dev/Xepub-AppImage/releases/latest) | [Click here](https://github.com/xapp-project/xepub) |
 
 </div>
+
+---
+
+### Description
+
+Xepub is an intuitive, secure, and paginated EPUB reader for Linux desktops, built for the X-Apps project (Linux Mint).
+
+Features:
+- **Paginated Reading**: Clean, comfortable pagination with smooth keyboard navigation and distraction-free fullscreen mode.
+- **X-Apps Integration**: Built as an XApp to work seamlessly across any desktop environment and distribution.
+- **Security-First Architecture**: Features strict content security isolation and sandboxed rendering for EPUB content.
+- **Annotations & Bookmarks**: Quickly bookmark pages and highlight text passages in multiple colors.
+- **Customizable Preferences**: Tailor font size, themes, line height, and reader settings to your liking.
+
+See [upstream](https://github.com/xapp-project/xepub) for more info about Xepub.
 
 ---
 
@@ -32,7 +47,6 @@ Self-updater is disabled by default if AppImage managers like [am](https://githu
 <details>
   <summary><b><i>raison d'être</i></b></summary>
     <img src="https://github.com/user-attachments/assets/d40067a6-37d2-4784-927c-2c7f7cc6104b" alt="Inspiration Image">
-  </a>
 </details>
 
 ---

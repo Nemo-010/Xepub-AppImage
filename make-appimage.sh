@@ -9,7 +9,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export DESKTOP=/usr/share/applications/xepub.desktop
 export ICON=/usr/share/icons/hicolor/scalable/apps/xepub.svg
 export DEPLOY_PYTHON=1
-
+export APPNAME=Xepub
 export PATH_MAPPING='
 	/usr/share/xepub:${SHARUN_DIR}/share/xepub
 '

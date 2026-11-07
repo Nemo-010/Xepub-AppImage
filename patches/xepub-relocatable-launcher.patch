@@ -1,0 +1,14 @@
+diff --git a/data/xepub.in b/data/xepub.in
+index 1149c2f..c0db3c4 100644
+--- a/data/xepub.in
++++ b/data/xepub.in
+@@ -1,2 +1,8 @@
+ #!/bin/sh
+-exec python3 "@xepub_dir@/main.py" "$@"
++self=$0
++case $self in
++	*/*) ;;
++	*) self=$(command -v "$self") ;;
++esac
++APPDIR="${APPDIR:-$(cd "${self%/*}/.." && pwd)}"
++exec python3 "$APPDIR/share/xepub/main.py" "$@"
